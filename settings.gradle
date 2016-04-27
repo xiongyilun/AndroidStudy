@@ -1,0 +1,15 @@
+include ':app', ':drawerlayout', ':app123', ':mymessage', ':DoPostHttpURLConnection', ':DoGetHttpURLConnection', ':readinbox', ':GetandPostJson', ':parecabletest', ':okhttptest', ':autosmssystem', ':jsontest', ':clientserveriotest', ':appcompatactivitystudy', ':mymessage2', 'app321', ':sample-okhttp', ':okhttputils'
+//{@projectName}/settings.gradle
+//
+//include ':app'
+//
+//
+//默认的 project 目录下的 settings.gradle 文件内容如上。可有可能默认情况下，
+// project 目录下的 settings.gradle 文件不存在，你可以自己创建。
+
+//include ':app'：表示当前 project 下有一个名称为 app 的 module 。
+//
+//如果你的一个 module 并不是 project 根目录下，你可以这么设置。
+//
+//include ':app2'
+//project(':app2').projectDir = new File('path/to/app2')

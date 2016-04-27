@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/DoGetHttpURLConnection/DoGetHttpURLConnection.iml" filepath="$PROJECT_DIR$/DoGetHttpURLConnection/DoGetHttpURLConnection.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DoPostHttpURLConnection/DoPostHttpURLConnection.iml" filepath="$PROJECT_DIR$/DoPostHttpURLConnection/DoPostHttpURLConnection.iml" />
+      <module fileurl="file://$PROJECT_DIR$/GetandPostJson/GetandPostJson.iml" filepath="$PROJECT_DIR$/GetandPostJson/GetandPostJson.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Project1.iml" filepath="$PROJECT_DIR$/Project1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app123/app123.iml" filepath="$PROJECT_DIR$/app123/app123.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app321/app321.iml" filepath="$PROJECT_DIR$/app321/app321.iml" />
+      <module fileurl="file://$PROJECT_DIR$/appcompatactivitystudy/appcompatactivitystudy.iml" filepath="$PROJECT_DIR$/appcompatactivitystudy/appcompatactivitystudy.iml" />
+      <module fileurl="file://$PROJECT_DIR$/autosmssystem/autosmssystem.iml" filepath="$PROJECT_DIR$/autosmssystem/autosmssystem.iml" />
+      <module fileurl="file://$PROJECT_DIR$/clientserveriotest/clientserveriotest.iml" filepath="$PROJECT_DIR$/clientserveriotest/clientserveriotest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/drawerlayout/drawerlayout.iml" filepath="$PROJECT_DIR$/drawerlayout/drawerlayout.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jsontest/jsontest.iml" filepath="$PROJECT_DIR$/jsontest/jsontest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mymessage/mymessage.iml" filepath="$PROJECT_DIR$/mymessage/mymessage.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mymessage2/mymessage2.iml" filepath="$PROJECT_DIR$/mymessage2/mymessage2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/okhttptest/okhttptest.iml" filepath="$PROJECT_DIR$/okhttptest/okhttptest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/okhttputils/okhttputils.iml" filepath="$PROJECT_DIR$/okhttputils/okhttputils.iml" />
+      <module fileurl="file://$PROJECT_DIR$/parecabletest/parecabletest.iml" filepath="$PROJECT_DIR$/parecabletest/parecabletest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/readinbox/readinbox.iml" filepath="$PROJECT_DIR$/readinbox/readinbox.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sample-okhttp/sample-okhttp.iml" filepath="$PROJECT_DIR$/sample-okhttp/sample-okhttp.iml" />
+    </modules>
+  </component>
+</project>

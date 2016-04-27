@@ -1,0 +1,27 @@
+private boolean sendPostRequest(Map<String, String> param, String url, String encoding) throws Exception {
+        StringBuffer sb = new StringBuffer(url);
+        if (!url.equals("") & !param.isEmpty()) {
+            sb.append("?");
+            for (Map.Entry<String, String> entry : param.entrySet()) {
+                sb.append(entry.getKey() + "=");
+                sb.append(URLEncoder.encode(entry.getValue(), encoding));
+                sb.append("&");
+            }
+            sb.deleteCharAt(sb.length() - 1);//删除字符串最后 一个字符“&”
+        }
+        Log.w("111111111111111111", sb.toString());
+        byte[] data = sb.toString().getBytes();
+        conn = (HttpURLConnection) new URL(url).openConnection();
+        conn.setConnectTimeout(8000);
+        conn.setReadTimeout(8000);
+        conn.setRequestMethod("POST");//设置请求方式为POST
+        conn.setDoOutput(true);//允许对外传输数据
+        OutputStream outputStream = conn.getOutputStream();//打开服务器的输入流
+        outputStream.write(data);//将数据写入到服务器的输出流
+        outputStream.flush();
+        outputStream.close();
+        if (conn.getResponseCode() == 200) {
+            return true;
+        }
+        return false;
+    }

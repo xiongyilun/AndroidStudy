@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="xyl.enigma.mymessage2.AddProInfoActivity"
+    tools:showIn="@layout/activity_add_pro_info">
+
+    <android.support.v7.widget.LinearLayoutCompat
+        android:id="@+id/line1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <android.support.v7.widget.AppCompatTextView
+            android:id="@+id/proID"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="proID:" />
+
+        <android.support.v7.widget.AppCompatEditText
+            android:id="@+id/proIDEdittext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="number" />
+
+    </android.support.v7.widget.LinearLayoutCompat>
+
+
+    <android.support.v7.widget.LinearLayoutCompat
+        android:id="@+id/line2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/line1">
+
+        <android.support.v7.widget.AppCompatTextView
+            android:id="@+id/courierNo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="courierNo:" />
+
+        <android.support.v7.widget.AppCompatEditText
+            android:id="@+id/courierNoEdittext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="number" />
+
+
+    </android.support.v7.widget.LinearLayoutCompat>
+
+    <android.support.v7.widget.LinearLayoutCompat
+        android:id="@+id/line3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/line2">
+
+        <android.support.v7.widget.AppCompatTextView
+            android:id="@+id/proPrice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="proPrice:" />
+
+
+        <android.support.v7.widget.AppCompatEditText
+            android:id="@+id/proPriceEdittext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="number" />
+    </android.support.v7.widget.LinearLayoutCompat>
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/line3"
+        android:text="上传"
+        app:theme="@style/Widget.AppCompat.Button"/>
+
+
+</RelativeLayout>
